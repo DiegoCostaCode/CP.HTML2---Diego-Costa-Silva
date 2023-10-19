@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Source+Code+Pro:wght@300&display=swap');
+
+/* //////////////////EVERYTHING////////////////// */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* //////////////////HEADER////////////////// */
+body
+{
+    font-size: 62.5%;
+    font-family: 'Jost', sans-serif;
+}
+
+body > .primeira-imagem > div
+{
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    line-height: 45px;
+    border-style: solid;
+    width: 400px;
+    text-shadow: 4px 0px 3px black;
+}
+
+body > .primeira-imagem
+{
+    display:flex;
+    background-image: url(../image/308233\ \(1\).jpg);
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* //////////////////MAIN////////////////// */
+
+body > main
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #DC143C;
+}
+
+body > main > section
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > main > aside
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > main > section > img
+{
+    width: 300px;
+    border-radius: 20px;
+}
+
+body > main > aside > img
+{
+    width: 400px;
+    border-radius: 20px;
+}
+
+body > main > section > H1
+{
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+body > main > section > p
+{
+    padding-top: 5px;
+    font-size: 0.9rem;
+    text-align: justify;
+    width: 550px;
+}
+
+body > main > aside > H1
+{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+body > main > aside > p
+{
+    padding-top: 5px;
+    font-size: 0.9rem;
+    text-align: justify ;
+    width: 550px;
+}
+
+
+/* //////////////////nav////////////////// */
+
+body > nav
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+body > nav > div
+{
+    display: flex;
+    flex-direction: column;
+    flex: 10%;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+}
+
+body > nav > div > h1
+{
+    color: white;
+    font-size: 1.5rem;
+    margin: 50px 0px 50px 0px;
+}
+
+body > nav > div > img
+{
+    width: 450px;
+}
+
+
+body > nav > aside
+{
+    display: flex;
+    flex-direction: column;
+    flex: 10%;
+    align-items: center;
+    justify-content: end;
+    background-image: url(../image/GREATMUSICNEVERDIES.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > nav > aside > h1
+{
+    text-shadow: 1px 0px 3px black;
+    color: white;
+    font-size: 3rem;
+}
+
+body > nav > aside > a
+{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: solid white;
+    text-shadow: 4px 0px 3px black;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 50px 0px;
+    border-radius: 10px;
+}
+
+/* //////////////////MEDIA SCREEN////////////////// */
+
+@media screen and (max-width: 1100px)
+{
+    body > .primeira-imagem
+    {
+        background-size: cover;
+        
+    }
+
+
+    body > main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body > nav
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+body > main > section > p
+{
+    width: 300px;
+}
+
+body > main > aside > p
+{
+    width: 300px;
+}
+
+body > nav > aside > h1
+{
+   height: 500px;
+}
+
+}
+
+
+@media screen and (max-width: 600px)
+{
+    body > .primeira-imagem
+    {
+        background-size: cover;
+        
+    }
+
+
+    body > main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body > nav
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+body > main > section > p
+{
+    width: 300px;
+}
+
+body > main > aside > p
+{
+    width: 300px;
+}
+
+body > nav > aside > h1
+{
+   height: 500px;
+}
+
+}
+
+
+
